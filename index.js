@@ -11,7 +11,7 @@ app.use(express.static(__dirname));
 
 data = load_everything();
 
-app.get('/', async (req, res) => {
+app.get('/', (req, res) => {
     res.render('index.ejs', data);
 });
 
