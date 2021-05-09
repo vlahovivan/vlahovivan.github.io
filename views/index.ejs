@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+    <h2>Ivan Vlahov</h2>
+    <h4>Projects list</h4>
+    
+    <ul>
+        <% for(let i = 0; i < data.length; i++) { %>
+            <li><a href="p5_sketches/<%= data[i]%>/index.html"><%=data[i]%></a></li>
+        <% } %>
+    </ul>
+
+    <p>
+        I'm still in the process of designing the page, obviously, but some projects are already finished so you can check them out :)
+    </p>
+</body>
+
+</html>
