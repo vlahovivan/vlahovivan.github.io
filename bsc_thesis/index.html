@@ -24,15 +24,15 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/final-build.loader.js";
+      var loaderUrl = buildUrl + "/Build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/final-build.data",
-        frameworkUrl: buildUrl + "/final-build.framework.js",
-        codeUrl: buildUrl + "/final-build.wasm",
+        dataUrl: buildUrl + "/Build.data",
+        frameworkUrl: buildUrl + "/Build.framework.js",
+        codeUrl: buildUrl + "/Build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "IvanVlahov",
         productName: "Island Landscape",
-        productVersion: "0.2",
+        productVersion: "1.0",
       };
 
       var container = document.querySelector("#unity-container");
@@ -46,7 +46,7 @@
         config.devicePixelRatio = 1;
       } else {
         canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.height = "540px";
       }
       loadingBar.style.display = "block";
 
